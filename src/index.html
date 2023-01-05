@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/mystyle.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- start header -->
+
+    <header
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative my-5">
+          <div class="flex items-center">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute py-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+
+            <nav
+              id="nav-menu"
+              class="z-10 absolute py-5 bg-white shadow-lg rounded-lg max-w-[200px] w-full top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none lg:py-1"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="/"
+                    class="text-base text-dark py-2 flex justify-center group-hover:text-primary"
+                    >Portfolio</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="/"
+                    class="text-base text-dark py-2 mx-8 flex justify-center group-hover:text-primary"
+                    >About Me</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="w-[50px] h-[50px] py-2">
+            <img
+              src="./img/icon/logo.png"
+              class="flex w-full h-full object-cover"
+            />
+          </div>
+          <div class="flex">
+            <button
+              class="flex items-center justify-center w-[135px] h-[42px] font-medium bg-secondary p-3 rounded-[15px] hover:shadow-md btn-hover transform-none"
+            >
+              Contact Me
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- akhir header -->
+    <!-- start hero -->
+    <section class="container mt-[100px]">
+      <div class="flex flex-col md:flex-row justify-between">
+        <div class="order-last md:order-first">
+          <p class="text-black font-bold md:text-[40px] text-3xl mb-2">
+            Hai i'm Walter B.G Aluman
+          </p>
+          <p class="text-secondary font-light md:font-normal mb-[15px]">
+            i am web developer, for now I am more focused on the front-end but
+            do not rule out the back-end work
+          </p>
+          <button
+            class="bg-btn p-3 rounded-2xl text-white mb-[15px] hover:shadow-lg font-semibold transform-none btn-hover"
+          >
+            Hire Me
+          </button>
+          <br />
+          <div class="flex">
+            <div
+              class="w-auto bg-primary p-3 rounded-xl text-white mr-8 font-semibold hover:scale-75 btn-hover transform-none"
+            >
+              ReactJs
+            </div>
+            <div
+              class="bg-secondary p-3 rounded-xl text-black font-semibold btn-hover transform-none"
+            >
+              ExpressJs
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-2"></div>
+        <div class="flex md:w-1/2 my-[15px] items-center">
+          <div class="flex-5 w-[240px] h-[240px] md:w-full md:h-full">
+            <img
+              src="img/walter.png"
+              alt="walter"
+              class="w-full h-full md:object-contain"
+            />
+          </div>
+          <div class="flex-1 relative">
+            <div class="absolute -left-[50px] z-10 bottom-8">
+              <div
+                class="flex items-center w-full justify-center h-[28px] bg-secondary p-3 md:p-5 rounded-md md:hidden lg:flex"
+              >
+                <p class="text-xs md:text-base font-medium text-black">
+                  always learn new things
+                </p>
+              </div>
+            </div>
+            <div class="absolute -left-[50px] top-8">
+              <div
+                class="flex items-center w-full justify-center h-[28px] bg-primary p-3 md:p-5 rounded-md md:hidden lg:flex"
+              >
+                <p class="text-xs md:text-base font-medium text-black">
+                  Student College
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end hero -->
+    <!-- start myproject -->
+    <section class="container mt-[100px]">
+      <p class="text-black font-bold text-xl">My Projects</p>
+      <div class="flex flex-col md:flex-row">
+        <div class="w-full h-full my-8 ring-red-600">
+          <img
+            src="../dist/img/p1.JPG"
+            alt="p1"
+            class="rounded-xl hover:object-center"
+          />
+
+          <p class="font-medium mt-2">Luxspace</p>
+          <div class="relative mt-2">
+            <p class="text-secondary font-medium text-sm flex">
+              front end use reactJs
+            </p>
+            <p
+              class="text-secondary font-medium text-sm absolute right-0 top-3"
+            >
+              back end use expressJs
+            </p>
+            <p class="text-secondary text-sm flex mt-2 font-medium">
+              ccs use Taildwind
+            </p>
+          </div>
+        </div>
+        <div class="w-full h-full my-8 md:mx-7 md:mt-[70px]">
+          <img
+            src="../dist/img/p2.PNG"
+            alt="p1"
+            class="rounded-xl hover:img-project"
+          />
+
+          <p class="font-medium mt-2">LacazaCoffee</p>
+          <div class="relative mt-2">
+            <p class="text-secondary font-medium text-sm flex">
+              front end use reactJs
+            </p>
+            <p
+              class="text-secondary font-medium text-sm absolute right-0 top-3"
+            >
+              back end use expressJs
+            </p>
+            <p class="text-secondary text-sm flex mt-2 font-medium">
+              ccs use Taildwind
+            </p>
+          </div>
+        </div>
+        <div class="w-full my-8 md:mt-[200px]">
+          <img
+            src="../dist/img/p3.JPG"
+            alt="p1"
+            class="rounded-xl hover:object-center"
+          />
+
+          <p class="font-medium mt-2">Staycation</p>
+          <div class="relative mt-2">
+            <p class="text-secondary font-medium text-sm flex">
+              front end use reactJs
+            </p>
+            <p
+              class="text-secondary font-medium text-sm absolute right-0 top-3"
+            >
+              back end use expressJs
+            </p>
+            <p class="text-secondary text-sm flex mt-2 font-medium">
+              ccs use bootstrap
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end myproject -->
+
+    <!-- start sitemap -->
+
+    <section id="aside-menu" class="mt-[100px]">
+      <div class="">
+        <div class="container">
+          <div class="flex flex-wrap">
+            <div class="w-full lg:w-3/12 pt-9 lg:px-2">
+              <h5 class="text-[30px] font-medium text-primary pb-[25px]">
+                My<span class="text-black">Portfolio</span>
+              </h5>
+            </div>
+
+            <div class="w-6/12 lg:w-3/12 pt-12 lg:px-2">
+              <h5 class="text-lg font-bold text-primary">About Me</h5>
+              <ul class="pt-3 lg:pt-[25px]">
+                <li class="pb-[15px]">
+                  <button
+                    type="link"
+                    href="/"
+                    class="text-base font-light text-secondary hover:underline"
+                  >
+                    alumanwalter@gmail.com
+                  </button>
+                </li>
+                <li class="pb-[15px]">
+                  <button
+                    type="link"
+                    href="/"
+                    class="text-base font-light text-secondary hover:underline"
+                  >
+                    Privacy & Policy
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            <div class="w-6/12 lg:w-3/12 pt-12 lg:px-2">
+              <h5 class="text-lg font-bold text-primary">Location</h5>
+              <ul class="pt-3 lg:pt-[25px]">
+                <li class="pb-[15px]">
+                  <button
+                    type="link"
+                    href="/"
+                    class="text-base font-light text-secondary hover:underline"
+                  >
+                    Indonesia
+                  </button>
+                </li>
+                <li class="pb-[15px]">
+                  <button
+                    type="link"
+                    href="/"
+                    class="text-base font-light text-secondary hover:underline"
+                  >
+                    East Nusa Tenggara
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            <div class="w-6/12 lg:w-3/12 pt-12 pb-12 lg:px-2">
+              <h5 class="text-lg font-bold text-primary">Follow Me</h5>
+              <ul class="pt-3 lg:pt-[25px]">
+                <li class="pb-[15px]">
+                  <button
+                    type="link"
+                    href="/"
+                    class="text-base font-light text-secondary hover:underline"
+                  >
+                    <svg
+                      width="48"
+                      height="48"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="48" height="48" fill="white" />
+                      <rect
+                        x="5.5"
+                        y="5.5"
+                        width="37"
+                        height="37"
+                        rx="8.5"
+                        stroke="#CF9861"
+                        strokeWidth="3"
+                      />
+                      <rect
+                        x="13.5"
+                        y="13.5"
+                        width="21"
+                        height="21"
+                        rx="10.5"
+                        stroke="#CF9861"
+                        strokeWidth="3"
+                      />
+                      <circle
+                        cx="36"
+                        cy="12"
+                        r="1.5"
+                        stroke="#CF9861"
+                        strokeWidth="3"
+                      />
+                    </svg>
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end sitemap -->
+    <!-- start footer -->
+
+    <footer class="flex text-center px-4 py-8 justify-center">
+      <p class="text-sm font-light text-secondary">© 2023 My Portfolio.</p>
+    </footer>
+    <!-- end footer -->
+    <!-- back to top start -->
+    <!-- <a
+      href="#home"
+      class="fixed justify-center hover:animate-pulse hidden items-center bottom-4 right-4 z-[9999] p-4 h-14 w-14 rounded-full bg-primary"
+      id="to-top"
+    >
+      <span class="block h-5 w-5 border-t-2 border-l-2 rotate-45 mt-2"></span
+    ></a> -->
+    <!-- back to top end -->
+    <script src="../dist/js/script.js"></script>
+  </body>
+</html>
